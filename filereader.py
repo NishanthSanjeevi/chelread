@@ -5,7 +5,7 @@ d = dict()
 # active_dict = dict()
 repoId = 0
 
-MyCacheFileLocation = r'C:\Users\nisanjee\FileReader\DictionaryCache.txt'
+MyCacheFileLocation = os.path.dirname(os.path.abspath(__file__)) + "\\Cache.txt"
 CacheFile = open(MyCacheFileLocation, 'w+')        
 def throw(e):
     raise Exception(e)
@@ -25,7 +25,7 @@ def convertTabsToSpaces(s):
     return s
 
 def PopulateDict():
-    
+    return ""
 
 
     
